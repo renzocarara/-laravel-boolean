@@ -1,9 +1,16 @@
 /* sovrascritture dello stile di boostrap  */
-.navbar {
-    height: 90px;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color: $bool_blue;
+header {
+    .navbar {
+        height: 90px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $bool_blue;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
 }
 /* fine sovrascritture dello stile di boostrap  */

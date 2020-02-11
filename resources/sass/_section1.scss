@@ -1,2 +1,19 @@
 /* section1 style */
+.section-1 {
+    background-color: $bool_blue;
+    color: white;
+
+    div {
+        padding: 0 20px;
+    }
+
+    p:first-of-type {
+        font-size: 49px;
+        margin-bottom: 0;
+    }
+
+    p:last-of-type {
+        font-size: 18px;
+    }
+}
 /* end section1 style */

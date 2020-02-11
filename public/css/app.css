@@ -10896,12 +10896,16 @@ a.text-dark:focus {
 
 /* sovrascritture dello stile di boostrap  */
 
-.navbar {
+header .navbar {
   height: 90px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+header .navbar-light .navbar-nav .nav-link {
   color: #1B3C59;
+}
+
+header .navbar-toggler {
+  border: none;
 }
 
 /* fine sovrascritture dello stile di boostrap  */
@@ -10914,6 +10918,10 @@ body {
 
 .first_section {
   padding-top: 90px;
+}
+
+section {
+  padding: 40px 0;
 }
 
 /*  end commom style */
@@ -10994,6 +11002,24 @@ header .nav-item.active {
 /* end jumbo style */
 
 /* section1 style */
+
+.section-1 {
+  background-color: #1B3C59;
+  color: white;
+}
+
+.section-1 div {
+  padding: 0 20px;
+}
+
+.section-1 p:first-of-type {
+  font-size: 49px;
+  margin-bottom: 0;
+}
+
+.section-1 p:last-of-type {
+  font-size: 18px;
+}
 
 /* end section1 style */
 
