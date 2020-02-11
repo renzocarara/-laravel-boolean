@@ -3,9 +3,9 @@
 
 {{-- includo la sezione head --}}
 @include ('layouts.head')
-@include ('layouts.header')
 
 <body>
+    @include ('layouts.header')
 
     {{-- qui verrà esteso il corpo della view --}}
     @yield('content')
