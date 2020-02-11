@@ -1,0 +1,38 @@
+/* header style */
+.navbar-brand {
+    height: 100%;
+
+    img {
+        height: 60px;
+    }
+}
+
+header .nav-item {
+    padding: 0 15px;
+    margin: 0 5px;
+
+    a {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        border-bottom: 2px solid $bool_green;
+    }
+}
+
+header .nav-item.active {
+    border-bottom: 2px solid $bool_green;
+}
+
+#cta-btn a {
+    color: white;
+    background-color: $bool_green;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#cta-btn:hover {
+    border-bottom: none;
+}
+/* end header style */

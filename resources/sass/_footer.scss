@@ -1,0 +1,48 @@
+/* footer styles */
+footer {
+    padding: 50px 0 30px;
+    background-color: $bool_blue;
+    color: white;
+};
+
+.footer-middle,
+.footer-top {
+    padding: 20px 0;
+}
+
+.footer-top-left {
+    img {
+        height: 65px;
+    }
+}
+
+.footer-top-right {
+    ul li {
+        list-style-type: none;
+
+        a {
+            color: white;
+            font-size: 20px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.footer-middle {
+    border-top: 1px solid white;
+
+    a i {
+        color: white;
+        font-size: 32px;
+        padding: 5px 20px;
+        margin: 0 5px;
+
+        &:hover {
+            color: $bool_green;
+        }
+    }
+}
+/* end footer style */
