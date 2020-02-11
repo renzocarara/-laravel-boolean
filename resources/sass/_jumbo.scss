@@ -1,2 +1,35 @@
 /* jumbo style */
+.jumbo .container {
+    padding: 80px 0;
+}
+
+.jumbo-left {
+    color: $bool_blue;
+    // width: 55%;
+    margin-right: 50px;
+
+    h1 {
+        font-size: 58.5px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    ul {
+        margin-left: 20px;
+        font-size: 19px;
+    }
+}
+
+.jumbo-left-img-wrapper {
+    display: none;
+}
+
+.jumbo-right {
+    // width: 45%;
+    img {
+        width: 100%;
+    }
+}
 /* end jumbo style */

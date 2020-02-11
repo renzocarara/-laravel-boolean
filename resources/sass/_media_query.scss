@@ -5,7 +5,15 @@
         align-items: center;
     }
 
-    .footer-top-left {}
+    .jumbo-right {
+        display: none;
+    }
 
-    .footer-top-right {}
+    .jumbo-left-img-wrapper {
+        display: block;
+    }
+
+    .jumbo-left h1 {
+        font-size: 38px;
+    }
 }

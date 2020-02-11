@@ -10961,6 +10961,36 @@ header .nav-item.active {
 
 /* jumbo style */
 
+.jumbo .container {
+  padding: 80px 0;
+}
+
+.jumbo-left {
+  color: #1B3C59;
+  margin-right: 50px;
+}
+
+.jumbo-left h1 {
+  font-size: 58.5px;
+}
+
+.jumbo-left p {
+  font-size: 22px;
+}
+
+.jumbo-left ul {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.jumbo-left-img-wrapper {
+  display: none;
+}
+
+.jumbo-right img {
+  width: 100%;
+}
+
 /* end jumbo style */
 
 /* section1 style */
@@ -11020,6 +11050,18 @@ footer {
   .footer-top {
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .jumbo-right {
+    display: none;
+  }
+
+  .jumbo-left-img-wrapper {
+    display: block;
+  }
+
+  .jumbo-left h1 {
+    font-size: 38px;
   }
 }
 
