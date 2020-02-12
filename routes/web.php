@@ -38,7 +38,7 @@ Route::get('/candidati', function () {
 
 Route::get('/faq', function () {
     $data = ['lista_faq_sx' => config('elenco_faqs.faqs_sx'),
-    'lista_faq_dx' => config('elenco_faqs.faqs_dx')];
+             'lista_faq_dx' => config('elenco_faqs.faqs_dx')];
     return view('faq', $data);
 }) -> name('faq');
 
