@@ -19,8 +19,10 @@ $(document).ready(function() {
 
     // accordion delle FAQ
     // catturo click sulla domanda
-    $('.question_text').click(function() {
-        togglePlusMinusIcon($(this)); //invoco funzione per fare un toggle tra '+' e '-'
+    $('#faq-section button').click(function() {
+        console.log("intercettato");
+        // invoco funzione per fare un toggle tra '+' e '-'
+        togglePlusMinusIcon($(this));
     });
 
 });
@@ -31,14 +33,13 @@ function togglePlusMinusIcon(that) {
     // mi ricavo il riferimento all'icona associata a quella domanda
     var iconReference = $(that).children();
 
-    // ricavo il riferimento a quale accordion (left o right) si riferisce la domanda cliccata
+    // ricavo l'id dell'accordion (left o right) al quale appartiene la domanda cliccata
     var whichAccordion = $(that).closest('.accordion').attr('id');
 
-    // verifco che icona è visualizzata al momento del click
+    // verifco che icona ('+ o '-') è visualizzata al momento del click
     if ($(iconReference).hasClass('fa-plus')) {
-
         // ripristino il '+' su una eventuale altra domanda aperta
-        $('#' + whichAccordion + ' .question_text i').removeClass('fa-minus').addClass('fa-plus');
+        $('#' + whichAccordion + ' button i').removeClass('fa-minus').addClass('fa-plus');
 
         // cambio icona da + a - sulla domanda cliccata
         $(iconReference).addClass('fa-minus').removeClass('fa-plus');

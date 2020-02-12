@@ -7,7 +7,7 @@
 
 <main>
 
-    <section class="jumbo first_section container d-flex">
+    <section class="jumbo container d-flex">
 
         <div class="jumbo-left">
 

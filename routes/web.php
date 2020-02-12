@@ -11,17 +11,34 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-}) -> name('homepage');
+Route::get('/', function () { // questo è quello che appare nell'url ('/)
+    return view('home'); // questo deve coincidere con il nome del file .blade.php
+}) -> name('homepage'); // questo è il nome della rotta che uso all'interno del codice per richiamare la view
 
 // a questa view passo 2 parametri, sono 2 array che contengono le faq,
 // si trovano nel file elenco_faqs.php nella cartella 'config'.
-// (in realtà passo solo 1 parametro ($data), un array costituito da 2 elementi
+// (in realtà passo solo un'unica struttura dati ($data), un array costituito da 2 elementi
 // che sono anche loro 2 array)
+
+Route::get('/lezione_gratis', function () {
+    return view('lesson');
+}) -> name('lezione');
+
+Route::get('/corso', function () {
+    return view('course');
+}) -> name('corso');
+
+Route::get('/dopo_il_corso', function () {
+    return view('after_the_end');
+}) -> name('dopo_corso');
+
+Route::get('/candidati', function () {
+    return view('subscribe');
+}) -> name('candidati');
+
 Route::get('/faq', function () {
     $data = ['lista_faq_sx' => config('elenco_faqs.faqs_sx'),
-           'lista_faq_dx' => config('elenco_faqs.faqs_dx')];
+    'lista_faq_dx' => config('elenco_faqs.faqs_dx')];
     return view('faq', $data);
 }) -> name('faq');
 

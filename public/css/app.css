@@ -10916,12 +10916,12 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-.first_section {
-  padding-top: 90px;
+main {
+  margin-top: 90px;
 }
 
 section {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 /*  end commom style */
@@ -11045,6 +11045,10 @@ header .nav-item.active {
 
 #faq-section button i {
   font-size: 30px;
+}
+
+#faq-section .card-body {
+  font-size: 18px;
 }
 
 #left_faq {

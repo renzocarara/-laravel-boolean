@@ -8,7 +8,7 @@
 <main>
     <div class="container">
 
-        <section class="first_section">
+        <section>
             <h2>...qui va la pagina Privacy policy</h2>
         </section>
 
