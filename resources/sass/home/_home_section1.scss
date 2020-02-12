@@ -1,10 +1,11 @@
-/* section1 style */
-.section-1 {
+/* section-1 style */
+
+#home-section-1 {
     background-color: $bool_blue;
     color: white;
 
     div {
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
     p:first-of-type {
@@ -16,4 +17,4 @@
         font-size: 18px;
     }
 }
-/* end section1 style */
+/* end section-1 style */

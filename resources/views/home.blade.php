@@ -31,7 +31,7 @@
 
     </section>
 
-    <section class="container-fluid section-1">
+    <section id="home-section-1" class="container-fluid">
 
         <div class="container">
             <div class="row">
@@ -54,11 +54,11 @@
 
     </section>
 
-    <section class="section-2">
+    <section id="home-section-2">
 
     </section>
 
-    <section class="section-3">
+    <section id="home-section-3">
 
     </section>
 
