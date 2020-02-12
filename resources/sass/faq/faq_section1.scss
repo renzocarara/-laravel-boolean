@@ -1,5 +1,4 @@
 /* section-1 style */
-
 #faq-section {
     padding-bottom: 0;
 
@@ -19,8 +18,15 @@
 
     button i {
         font-size: 30px;
-        color: $bool_blue;
     }
+}
+
+#left_faq {
+    color: $bool_blue;
+}
+
+#right_faq {
+    color: $white;
 }
 
 #left_faq {

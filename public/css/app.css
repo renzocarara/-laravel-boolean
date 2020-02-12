@@ -11045,7 +11045,14 @@ header .nav-item.active {
 
 #faq-section button i {
   font-size: 30px;
+}
+
+#left_faq {
   color: #1B3C59;
+}
+
+#right_faq {
+  color: #fff;
 }
 
 #left_faq {
