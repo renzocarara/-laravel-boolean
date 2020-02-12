@@ -11029,16 +11029,16 @@ header .nav-item.active {
   padding-bottom: 0;
 }
 
-#faq-section #left_faq,
-#faq-section #right_faq,
 #faq-section p {
-  padding: 0 80px;
+  padding: 0 80px 60px;
 }
 
 #faq-section h1 {
   padding: 80px 80px 0;
 }
 
+#faq-section #left_faq,
+#faq-section #right_faq,
 #faq-section h3 {
   font-size: 24px;
 }
@@ -11049,10 +11049,12 @@ header .nav-item.active {
 
 #left_faq {
   color: #1B3C59;
+  padding: 0 30px;
 }
 
 #right_faq {
   color: #fff;
+  padding: 0 30px;
 }
 
 #left_faq {
@@ -11061,7 +11063,7 @@ header .nav-item.active {
 }
 
 #left_faq h2 {
-  padding-top: 40px;
+  padding: 40px 0 0 20px;
 }
 
 #right_faq {
@@ -11071,7 +11073,7 @@ header .nav-item.active {
 }
 
 #right_faq h2 {
-  padding-top: 40px;
+  padding: 40px 0 0 20px;
 }
 
 #leftFaqAccordion h3 button {
