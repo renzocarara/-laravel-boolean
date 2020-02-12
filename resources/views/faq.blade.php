@@ -31,7 +31,7 @@ che contengono tutte le faq (si vede invocazione nel file web.php)
                         <div class="card">
                             <div class="card-header clearfix" id="leftQuestion_{{ $index }}">
                                 <h3 class="mb-0">
-                                    <button class="btn btn-link collapsed text-left" type="button" data-toggle="collapse" data-target="#leftAnswer_{{ $index }}" aria-expanded="true" aria-controls="leftAnswer_{{ $index }}">
+                                    <button class="btn btn-link collapsed text-left question_text" type="button" data-toggle="collapse" data-target="#leftAnswer_{{ $index }}" aria-expanded="true" aria-controls="leftAnswer_{{ $index }}">
                                         {{-- testo domanda --}}
                                         {{ $faq['q'] }}
                                         <i class="fas fa-plus"></i>
@@ -63,7 +63,7 @@ che contengono tutte le faq (si vede invocazione nel file web.php)
                         <div class="card">
                             <div class="card-header clearfix" id="rightQuestion_{{ $index }}">
                                 <h3 class="mb-0">
-                                    <button class="btn btn-link collapsed text-left" type="button" data-toggle="collapse" data-target="#rightAnswer_{{ $index }}" aria-expanded="true" aria-controls="rightAnswer_{{ $index }}">
+                                    <button class="btn btn-link collapsed text-left question_text" type="button" data-toggle="collapse" data-target="#rightAnswer_{{ $index }}" aria-expanded="true" aria-controls="rightAnswer_{{ $index }}">
                                         {{-- testo domanda --}}
                                         {{ $faq['q'] }}
                                         <i class="fas fa-plus"></i>

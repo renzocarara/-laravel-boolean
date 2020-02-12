@@ -33,14 +33,12 @@ function togglePlusMinusIcon(that) {
 
     // ricavo il riferimento a quale accordion (left o right) si riferisce la domanda cliccata
     var whichAccordion = $(that).closest('.accordion').attr('id');
-    console.log("whichAccordion:", whichAccordion);
 
     // verifco che icona è visualizzata al momento del click
     if ($(iconReference).hasClass('fa-plus')) {
 
         // ripristino il '+' su una eventuale altra domanda aperta
         $('#' + whichAccordion + ' .question_text i').removeClass('fa-minus').addClass('fa-plus');
-
 
         // cambio icona da + a - sulla domanda cliccata
         $(iconReference).addClass('fa-minus').removeClass('fa-plus');
