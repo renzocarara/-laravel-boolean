@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () { // questo è quello che appare nella barra indirizzi('/) (è lo 'slug')
+Route::get('/', function () { // questo è quello che appare nella barra indirizzi (è lo 'slug')
     return view('home'); // questo deve coincidere con il nome del file .blade.php
 }) -> name('homepage'); // questo è il nome della rotta che uso all'interno del codice per richiamare la view
 
